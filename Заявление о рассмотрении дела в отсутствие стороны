@@ -1,0 +1,169 @@
+{
+  "id": 7,
+  "name": "Заявление о рассмотрении дела в отсутствие стороны",
+  "s3Url": "Заявление о рассмотрении дела в отсутствие стороны.odt",
+  "fields": [
+    {
+      "formName": "Court",
+      "viewName": "Суд",
+      "required": "true",
+      "type": "combobox",
+      "dataSet": "case",
+      "value": "courts",
+      "blockId": "1",
+      "colspan": "2"
+    },
+    {
+      "formName": "InstanceNumber",
+      "viewName": "Номер производства",
+      "required": "true",
+      "type": "combobox",
+      "dataSet": "",
+      "value": "",
+      "linkName": "Court.Numbers",
+      "blockId": "1",
+      "colspan": "2"
+    },
+    {
+      "formName": "SideType",
+      "viewName": "Тип участия",
+      "required": "true",
+      "type": "combobox",
+      "dataSet": "",
+      "value": "[{\"Id\" : 1, \"Value\" : \"Истец\"},{\"Id\" : 2, \"Value\" : \"Ответчик\"},{\"Id\" : 3, \"Value\" : \"Третье лицо\"}, {\"Id\" : 4, \"Value\" : \"Иное лицо\"}]",
+      "blockId": "1",
+      "colspan": "2"
+    },
+    {
+      "formName": "Comment",
+      "viewName": "Обоснование",
+      "required": "true",
+      "type": "textArea",
+      "dataSet": "",
+      "value": "",
+      "blockId": "1",
+      "colspan": "6"
+    },
+    {
+      "formName": "SideModel_name",
+      "viewName": "Заявитель",
+      "required": "true",
+      "type": "text",
+      "dataSet": "warrant",
+      "value": "Declarer",
+      "blockId": "2",
+      "colspan": "2"
+    },
+    {
+      "formName": "SideModel_inn",
+      "viewName": "ИНН заявителя",
+      "validator": "inn",
+      "required": "true",
+      "type": "text",
+      "dataSet": "warrant",
+      "value": "IssuedByINN",
+      "blockId": "2",
+      "colspan": "2"
+    },
+    {
+      "formName": "SideModel_ogrn",
+      "viewName": "ОГРН (ОГРНИП) заявителя",
+      "validator": "ogrn",
+      "required": "true",
+      "type": "text",
+      "dataSet": "warrant",
+      "value": "IssuedByOGRN",
+      "blockId": "2",
+      "colspan": "2"
+    },
+    {
+      "formName": "SideModel_addresses",
+      "viewName": "Адрес заявителя",
+      "required": "true",
+      "type": "text",
+      "dataSet": "warrant",
+      "value": "IssuedByAddress",
+      "blockId": "2",
+      "colspan": "6"
+    },
+    {
+      "formName": "RepresentativeLastName",
+      "viewName": "Фамилия представителя",
+      "required": "true",
+      "type": "text",
+      "dataSet": "warrant",
+      "value": "RepresentativeLastName",
+      "blockId": "2",
+      "colspan": "2"
+    },
+    {
+      "formName": "RepresentativeFirstName",
+      "viewName": "Имя представителя",
+      "required": "true",
+      "type": "text",
+      "dataSet": "warrant",
+      "value": "RepresentativeFirstName",
+      "blockId": "2",
+      "colspan": "2"
+    },
+    {
+      "formName": "RepresentativeMiddleName",
+      "viewName": "Отчество представителя",
+      "required": "true",
+      "type": "text",
+      "dataSet": "warrant",
+      "value": "RepresentativeMiddleName",
+      "blockId": "2",
+      "colspan": "2"
+    },
+    {
+      "formName": "Phone",
+      "viewName": "Телефон представителя",
+      "mask": "phone",
+      "required": "true",
+      "type": "text",
+      "dataSet": "esiaInfo",
+      "value": "Phone",
+      "blockId": "2",
+      "colspan": "2"
+    },
+    {
+      "formName": "Email",
+      "viewName": "Email представителя",
+      "validator": "email",
+      "required": "true",
+      "type": "text",
+      "dataSet": "esiaInfo",
+      "value": "ViewEmail",
+      "blockId": "2",
+      "colspan": "4"
+    },
+    {
+      "formName": "RecourseReadyModel_recourseTypeId",
+      "viewName": "",
+      "required": "true",
+      "type": "text",
+      "dataSet": "",
+      "value": "994db567-b372-492c-aeab-cf8f459563cb"
+    },
+    {
+      "formName": "RecourseReadyModel_subtypeId",
+      "viewName": "",
+      "required": "true",
+      "type": "text",
+      "dataSet": "",
+      "value": "1480db8c-3f73-4d42-8191-8b32b926f87f"
+    }
+  ],
+  "blocks": [
+    {
+      "id": 1,
+      "name": "Дополнительные параметры"
+    },
+    {
+      "id": 2,
+      "name": "Данные о заявителе и представителе"
+    }
+  ],
+  "useTemplate": false
+}
