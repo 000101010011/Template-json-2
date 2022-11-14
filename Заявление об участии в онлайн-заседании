@@ -1,7 +1,7 @@
 {
   "id": 2,
-  "name": "Заявление об участии в онлайн-заседании",
-  "s3Url": "Заявление об участии в онлайн-заседании.odt",
+  "name": "Ходатайство об участии в онлайн-заседании",
+  "s3Url": "Ходатайство об участии в онлайн-заседании.odt",
   "fields": [
     {
       "formName": "Court",
@@ -154,7 +154,7 @@
       "required": "true",
       "type": "text",
       "dataSet": "",
-      "value": "994db567-b372-492c-aeab-cf8f459563cb"
+      "value": "1793cf40-4409-44e2-b598-4a9528b9808c"
     },
     {
       "formName": "RecourseReadyModel_subtypeId",
@@ -162,7 +162,7 @@
       "required": "true",
       "type": "text",
       "dataSet": "",
-      "value": "1480db8c-3f73-4d42-8191-8b32b926f87f"
+      "value": "526fa1cb-1a18-4897-a205-93492e4d193f"
     }
   ],
   "blocks": [
