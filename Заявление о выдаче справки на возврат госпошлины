@@ -14,6 +14,16 @@
       "colspan": "4"
     },
     {
+      "formName": "TypeDocument",
+      "required": "true",
+      "type": "text",
+      "dataSet": "",
+      "value": "",
+      "blockId": "1",
+      "linkName": "CaseActDocuments.DocumentTypeName",
+      "colspan": ""
+    },
+    {
       "formName": "InstanceNumber",
       "viewName": "",
       "required": "true",
@@ -157,7 +167,7 @@
       "required": "true",
       "type": "text",
       "dataSet": "",
-      "value": "00ebb747-c067-4510-8ca6-cf613939a8ae"
+      "value": "80050b99-1bed-4a30-b188-937d134dff84"
     },
     {
       "formName": "RecourseReadyModel_subtypeId",
@@ -165,7 +175,7 @@
       "required": "true",
       "type": "text",
       "dataSet": "",
-      "value": "9557651b-3bdd-4247-8e46-d6e3e00dfb15"
+      "value": "a459d31b-f2d2-4a5c-9f46-ac2466475ada"
     }
   ],
   "blocks": [
