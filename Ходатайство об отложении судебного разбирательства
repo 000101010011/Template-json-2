@@ -14,6 +14,17 @@
       "colspan": "6"
     },
     {
+      "formName": "Court",
+      "viewName": "",
+      "required": "true",
+      "type": "combobox",
+      "dataSet": "case",
+      "value": "courts",
+      "blockId": "1",
+      "linkName": "",
+      "colspan": ""
+    },
+    {
       "formName": "InstanceNumber",
       "viewName": "",
       "required": "true",
@@ -43,7 +54,7 @@
       "dataSet": "",
       "value": "",
       "blockId": "1",
-      "linkName": "CaseActDocuments.CreationDate",
+      "linkName": "",
       "colspan": ""
     },
     {
@@ -156,7 +167,7 @@
       "required": "true",
       "type": "text",
       "dataSet": "",
-      "value": "00ebb747-c067-4510-8ca6-cf613939a8ae"
+      "value": "8293a400-6fda-44a7-95cc-6110d307110d"
     },
     {
       "formName": "RecourseReadyModel_subtypeId",
@@ -164,7 +175,7 @@
       "required": "true",
       "type": "text",
       "dataSet": "",
-      "value": "9557651b-3bdd-4247-8e46-d6e3e00dfb15"
+      "value": "7c7580a8-e58b-43a5-b4c7-5c61d02fafd3"
     }
   ],
   "blocks": [
