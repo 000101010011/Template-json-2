@@ -1,7 +1,7 @@
 {
   "id": 2,
-  "name": "Ходатайство об участии в онлайн-заседании",
-  "s3Url": "Ходатайство об участии в онлайн-заседании.odt",
+  "name": "Заявление об участии в онлайн-заседании",
+  "s3Url": "Заявление об участии в онлайн-заседании.odt",
   "fields": [
     {
       "formName": "Court",
@@ -20,8 +20,9 @@
       "type": "combobox",
       "dataSet": "",
       "value": "",
-      "linkName": "Court.Numbers",
       "blockId": "1",
+      "linkName": "Court.Numbers",
+      "hidden": "!/AAS$/.test(Court) && !/^FAS/.test(Court) && (Court != 'VS') && (Court != 'VAS')",
       "colspan": "2"
     },
     {
