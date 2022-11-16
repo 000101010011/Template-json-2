@@ -156,5 +156,25 @@
       "name": "Данные о заявителе и представителе"
     }
   ],
-  "useTemplate": false
+  "useTemplate": false,
+  "mainAttachType": "a13f9d4c-cf93-400c-829e-76adc57d03ee",
+  "requiredAttachmentTypes": [
+    {
+      "id": "a13f9d4c-cf93-400c-829e-76adc57d03ee",
+      "name": "Заявление (ходатайство)",
+      "priority": 1
+    }
+  ],
+  "possibleAttachmentsTypes": [
+    {
+      "id": "3e0cc769-0cac-49c0-acc5-00e9a6030759",
+      "name": "Иной документ",
+      "priority": 100
+    },
+    {
+      "id": "24572992-6cfd-4290-b828-d45cabdec002",
+      "name": "Доверенность",
+      "priority": 1
+    }
+  ]
 }
