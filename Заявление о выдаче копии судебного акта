@@ -61,7 +61,7 @@
       "required": "true",
       "type": "switcher",
       "dataSet": "",
-      "value": "[{\"Id\" : 1, \"Value\" : \"Да\"},{\"Id\" : 2, \"Value\" : \"Нет\"}]",
+      "value": "true",
       "blockId": "1",
       "colspan": "2"
     },
