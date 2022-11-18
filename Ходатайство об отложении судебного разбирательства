@@ -21,20 +21,19 @@
       "dataSet": "case",
       "value": "courts",
       "blockId": "1",
-      "linkName": "",
-      "colspan": ""
+      "colspan": "2"
     },
     {
       "formName": "InstanceNumber",
       "viewName": "",
       "required": "true",
-      "type": "text",
+      "type": "combobox",
       "dataSet": "",
       "value": "",
       "blockId": "1",
-      "linkName": "",
-      "hidden": "",
-      "colspan": ""
+      "linkName": "Court.Numbers",
+      "hidden": "!/AAS$/.test(Court) && !/^FAS/.test(Court) && (Court != 'VS') && (Court != 'VAS')",
+      "colspan": "2"
     },
     {
       "formName": "Comment",
