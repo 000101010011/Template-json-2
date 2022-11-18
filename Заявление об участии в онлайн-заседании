@@ -36,12 +36,12 @@
       "colspan": "2"
     },
     {
-      "formName": "NextEvent",
+      "formName": "SessionDate",
       "viewName": "Заседание",
       "required": "true",
       "type": "combobox",
-      "dataSet": "case",
-      "value": "nextEvent",
+      "dataSet": "caseSessions",
+      "value": "",
       "blockId": "1",
       "colspan": "6"
     },
