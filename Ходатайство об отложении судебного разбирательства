@@ -33,7 +33,6 @@
       "value": "",
       "blockId": "1",
       "linkName": "Court.Numbers",
-      "hidden": "!/AAS$/.test(Court) && !/^FAS/.test(Court) && (Court != 'VS') && (Court != 'VAS')",
       "colspan": "2"
     },
     {
