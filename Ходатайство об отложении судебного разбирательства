@@ -4,12 +4,12 @@
   "s3Url": "Ходатайство об отложении судебного разбирательства.odt",
   "fields": [
     {
-      "formName": "NextEvent",
+      "formName": "SessionDate",
       "viewName": "Заседание",
       "required": "true",
       "type": "combobox",
-      "dataSet": "case",
-      "value": "nextEvent",
+      "dataSet": "caseSessions",
+      "value": "",
       "blockId": "1",
       "colspan": "6"
     },
