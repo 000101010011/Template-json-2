@@ -20,8 +20,9 @@
       "type": "combobox",
       "dataSet": "case",
       "value": "courts",
+      "linkName": "SessionDate.CourtName",
       "blockId": "1",
-      "colspan": "2"
+      "colspan": ""
     },
     {
       "formName": "InstanceNumber",
