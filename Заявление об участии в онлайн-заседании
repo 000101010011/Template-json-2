@@ -3,39 +3,7 @@
   "name": "Ходатайство об участии в онлайн-заседании",
   "s3Url": "Ходатайство об участии в онлайн-заседании.odt",
   "fields": [
-    {
-      "formName": "Court",
-      "viewName": "Суд",
-      "required": "true",
-      "type": "combobox",
-      "dataSet": "case",
-      "value": "courts",
-      "blockId": "1",
-      "colspan": "2"
-    },
-    {
-      "formName": "InstanceNumber",
-      "viewName": "Номер производства",
-      "required": "true",
-      "type": "combobox",
-      "dataSet": "",
-      "value": "",
-      "blockId": "1",
-      "linkName": "Court.Numbers",
-      "hidden": "!/AAS$/.test(Court) && !/^FAS/.test(Court) && (Court != 'VS') && (Court != 'VAS')",
-      "colspan": "2"
-    },
-    {
-      "formName": "SideType",
-      "viewName": "Тип участия",
-      "required": "true",
-      "type": "combobox",
-      "dataSet": "",
-      "value": "[{\"Id\" : 1, \"Value\" : \"Истец\"},{\"Id\" : 2, \"Value\" : \"Ответчик\"},{\"Id\" : 3, \"Value\" : \"Третье лицо\"}, {\"Id\" : 4, \"Value\" : \"Иное лицо\"}]",
-      "blockId": "1",
-      "colspan": "2"
-    },
-    {
+      {
       "formName": "SessionDate",
       "viewName": "Заседание",
       "required": "true",
@@ -44,6 +12,39 @@
       "value": "",
       "blockId": "1",
       "colspan": "6"
+    },
+    {
+      "formName": "DateSession",
+      "viewName": "",
+      "required": "true",
+      "type": "",
+      "dataSet": "",
+      "value": "",
+      "linkName": "SessionDate.SessionDate",
+      "blockId": "1",
+      "colspan": ""
+    },
+    {
+      "formName": "Court",
+      "viewName": "",
+      "required": "true",
+      "type": "combobox",
+      "dataSet": "case",
+      "value": "",
+      "linkName": "SessionDate.CourtName",
+      "blockId": "1",
+      "colspan": ""
+    },
+    {
+      "formName": "InstanceNumber",
+      "viewName": "",
+      "required": "true",
+      "type": "combobox",
+      "dataSet": "",
+      "value": "",
+      "blockId": "1",
+      "linkName": "SessionDate.Number",
+      "colspan": ""
     },
     {
       "formName": "Comment",
@@ -55,7 +56,7 @@
       "blockId": "1",
       "colspan": "6"
     },
-    {
+   {
       "formName": "SideModel_name",
       "viewName": "Заявитель",
       "required": "true",
