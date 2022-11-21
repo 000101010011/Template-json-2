@@ -30,7 +30,7 @@
       "required": "true",
       "type": "combobox",
       "dataSet": "case",
-      "value": "",
+      "value": "courts",
       "linkName": "SessionDate.CourtName",
       "blockId": "1",
       "colspan": ""
@@ -83,7 +83,7 @@
       "required": "true",
       "type": "text",
       "dataSet": "warrant",
-      "value": "",
+      "value": "Declarer",
       "blockId": "2",
       "colspan": "2"
     },
@@ -94,7 +94,7 @@
       "required": "true",
       "type": "text",
       "dataSet": "warrant",
-      "value": "",
+      "value": "IssuedByINN",
       "blockId": "2",
       "colspan": "2"
     },
@@ -105,7 +105,7 @@
       "required": "true",
       "type": "text",
       "dataSet": "warrant",
-      "value": "",
+      "value": "IssuedByOGRN",
       "blockId": "2",
       "colspan": "2"
     },
@@ -115,7 +115,7 @@
       "required": "true",
       "type": "text",
       "dataSet": "warrant",
-      "value": "",
+      "value": "IssuedByAddress",
       "blockId": "2",
       "colspan": "6"
     },
@@ -125,7 +125,7 @@
       "required": "true",
       "type": "text",
       "dataSet": "warrant",
-      "value": "",
+      "value": "RepresentativeLastName",
       "blockId": "2",
       "colspan": "2"
     },
@@ -135,7 +135,7 @@
       "required": "true",
       "type": "text",
       "dataSet": "warrant",
-      "value": "",
+      "value": "RepresentativeFirstName",
       "blockId": "2",
       "colspan": "2"
     },
@@ -145,7 +145,7 @@
       "required": "true",
       "type": "text",
       "dataSet": "warrant",
-      "value": "",
+      "value": "RepresentativeMiddleName",
       "blockId": "2",
       "colspan": "2"
     },
@@ -156,7 +156,7 @@
       "required": "true",
       "type": "text",
       "dataSet": "esiaInfo",
-      "value": null,
+      "value": "Phone",
       "blockId": "2",
       "colspan": "2"
     },
@@ -167,7 +167,7 @@
       "required": "true",
       "type": "text",
       "dataSet": "esiaInfo",
-      "value": "pereviznik.a.e@gmail.com",
+      "value": "ViewEmail",
       "blockId": "2",
       "colspan": "4"
     },
