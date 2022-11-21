@@ -14,12 +14,23 @@
       "colspan": "6"
     },
     {
+      "formName": "DateSession",
+      "viewName": "",
+      "required": "true",
+      "type": "",
+      "dataSet": "",
+      "value": "",
+      "linkName": "SessionDate.SessionDate",
+      "blockId": "1",
+      "colspan": ""
+    },
+    {
       "formName": "Court",
       "viewName": "",
       "required": "true",
       "type": "combobox",
       "dataSet": "case",
-      "value": "courts",
+      "value": "",
       "linkName": "SessionDate.CourtName",
       "blockId": "1",
       "colspan": ""
@@ -32,7 +43,7 @@
       "dataSet": "",
       "value": "",
       "blockId": "1",
-      "linkName": "Court.Numbers",
+      "linkName": "SessionDate.Number",
       "colspan": "2"
     },
     {
@@ -72,7 +83,7 @@
       "required": "true",
       "type": "text",
       "dataSet": "warrant",
-      "value": "Declarer",
+      "value": "",
       "blockId": "2",
       "colspan": "2"
     },
@@ -83,7 +94,7 @@
       "required": "true",
       "type": "text",
       "dataSet": "warrant",
-      "value": "IssuedByINN",
+      "value": "",
       "blockId": "2",
       "colspan": "2"
     },
@@ -94,7 +105,7 @@
       "required": "true",
       "type": "text",
       "dataSet": "warrant",
-      "value": "IssuedByOGRN",
+      "value": "",
       "blockId": "2",
       "colspan": "2"
     },
@@ -104,7 +115,7 @@
       "required": "true",
       "type": "text",
       "dataSet": "warrant",
-      "value": "IssuedByAddress",
+      "value": "",
       "blockId": "2",
       "colspan": "6"
     },
@@ -114,7 +125,7 @@
       "required": "true",
       "type": "text",
       "dataSet": "warrant",
-      "value": "RepresentativeLastName",
+      "value": "",
       "blockId": "2",
       "colspan": "2"
     },
@@ -124,7 +135,7 @@
       "required": "true",
       "type": "text",
       "dataSet": "warrant",
-      "value": "RepresentativeFirstName",
+      "value": "",
       "blockId": "2",
       "colspan": "2"
     },
@@ -134,7 +145,7 @@
       "required": "true",
       "type": "text",
       "dataSet": "warrant",
-      "value": "RepresentativeMiddleName",
+      "value": "",
       "blockId": "2",
       "colspan": "2"
     },
@@ -145,7 +156,7 @@
       "required": "true",
       "type": "text",
       "dataSet": "esiaInfo",
-      "value": "Phone",
+      "value": null,
       "blockId": "2",
       "colspan": "2"
     },
@@ -156,7 +167,7 @@
       "required": "true",
       "type": "text",
       "dataSet": "esiaInfo",
-      "value": "ViewEmail",
+      "value": "pereviznik.a.e@gmail.com",
       "blockId": "2",
       "colspan": "4"
     },
