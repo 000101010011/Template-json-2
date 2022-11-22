@@ -198,7 +198,7 @@
       "name": "Данные о заявителе и представителе"
     }
   ],
-  "useTemplate": false,
+  "useTemplate": true,
   "mainAttachType": "a13f9d4c-cf93-400c-829e-76adc57d03ee",
   "requiredAttachmentTypes": [
     {
