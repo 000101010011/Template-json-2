@@ -28,9 +28,9 @@
       "formName": "Court",
       "viewName": "",
       "required": "true",
-      "type": "combobox",
-      "dataSet": "case",
-      "value": "courts",
+      "type": "text",
+      "dataSet": "",
+      "value": "",
       "linkName": "SessionDate.CourtName",
       "blockId": "1",
       "colspan": ""
