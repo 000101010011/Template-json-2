@@ -39,7 +39,7 @@
       "formName": "InstanceNumber",
       "viewName": "",
       "required": "true",
-      "type": "combobox",
+      "type": "text",
       "dataSet": "",
       "value": "",
       "blockId": "1",
