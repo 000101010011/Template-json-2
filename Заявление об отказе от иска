@@ -11,6 +11,7 @@
       "dataSet": "",
       "value": "[{\"Id\" : 1, \"Value\" : \"Полный отказ\"},{\"Id\" : 2, \"Value\" : \"Частичный отказ\"}]",
       "blockId": "1",
+      "templateOnly": "true",
       "colspan": "2"
     },
     {
@@ -43,6 +44,7 @@
       "dataSet": "",
       "value": "",
       "blockId": "1",
+      "templateOnly": "true",
       "colspan": "6"
     },
     {
@@ -53,6 +55,7 @@
       "dataSet": "",
       "value": "",
       "blockId": "1",
+      "templateOnly": "true",
       "colspan": "6"
     },
     {
