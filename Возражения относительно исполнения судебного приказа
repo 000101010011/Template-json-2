@@ -44,6 +44,7 @@
       "dataSet": "",
       "value": "",
       "blockId": "1",
+      "templateOnly": "true",
       "colspan": "6"
     },
     {
