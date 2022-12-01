@@ -33,6 +33,7 @@
       "dataSet": "",
       "value": "[{\"Id\" : 1, \"Value\" : \"Истец\"},{\"Id\" : 2, \"Value\" : \"Ответчик\"},{\"Id\" : 3, \"Value\" : \"Третье лицо\"}, {\"Id\" : 4, \"Value\" : \"Иное лицо\"}]",
       "blockId": "1",
+      "templateOnly": "true",
       "colspan": "2"
     },
     {
@@ -43,6 +44,7 @@
       "dataSet": "",
       "value": "",
       "blockId": "1",
+      "templateOnly": "true",
       "colspan": "6"
     },
     {
