@@ -3,7 +3,7 @@
   "name": "Ходатайство об участии в онлайн-заседании",
   "s3Url": "Ходатайство об участии в онлайн-заседании.odt",
   "fields": [
-      {
+    {
       "formName": "SessionDate",
       "viewName": "Заседание",
       "required": "true",
@@ -54,9 +54,10 @@
       "dataSet": "",
       "value": "",
       "blockId": "1",
+      "templateOnly": "true",
       "colspan": "6"
     },
-   {
+    {
       "formName": "SideModel_name",
       "viewName": "Заявитель",
       "required": "true",
