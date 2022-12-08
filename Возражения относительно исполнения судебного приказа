@@ -11,6 +11,7 @@
       "dataSet": "caseActDocuments",
       "value": "",
       "blockId": "1",
+      "templateOnly": "true",
       "colspan": "4"
     },
     {
@@ -21,24 +22,24 @@
       "dataSet": "case",
       "value": "courts",
       "blockId": "1",
+      "templateOnly": "true",
       "linkName": "CaseActDocuments.CourtTag",
       "colspan": "2"
     },
     {
-      "formName": "InstanceNumber",
-      "viewName": "",
+      "formName": "Comment",
+      "viewName": "Обоснование",
       "required": "true",
-      "type": "combobox",
+      "type": "textArea",
       "dataSet": "",
       "value": "",
       "blockId": "1",
-      "linkName": "",
-      "hidden": "",
-      "colspan": ""
+      "templateOnly": "true",
+      "colspan": "6"
     },
     {
-      "formName": "Comment",
-      "viewName": "Обоснование",
+      "formName": "SupplicatoryPart",
+      "viewName": "Просительная часть",
       "required": "true",
       "type": "textArea",
       "dataSet": "",
@@ -193,11 +194,6 @@
       "id": "3e0cc769-0cac-49c0-acc5-00e9a6030759",
       "name": "Иной документ",
       "priority": 100
-    },
-    {
-      "id": "24572992-6cfd-4290-b828-d45cabdec002",
-      "name": "Доверенность",
-      "priority": 1
     }
   ]
 }
