@@ -4,6 +4,29 @@
   "s3Url": "Ходатайство об участии в онлайн-заседании.odt",
   "fields": [
     {
+      "formName": "Court",
+      "viewName": "Суд",
+      "required": "true",
+      "type": "combobox",
+      "dataSet": "case",
+      "value": "courts",
+      "linkName": "SessionDate.CourtName",
+      "blockId": "1",
+      "colspan": "4"
+    },
+    {
+      "formName": "InstanceNumber",
+      "viewName": "Номер производства",
+      "required": "true",
+      "type": "combobox",
+      "dataSet": "caseActDocuments",
+      "value": "",
+      "blockId": "1",
+      "linkName": "Court.Numbers",
+      "hidden": "!/AAS$/.test(Court) && !/^FAS/.test(Court) && (Court != 'VS') && (Court != 'VAS')",
+      "colspan": "2"
+    },
+    {
       "formName": "SessionDate",
       "viewName": "Заседание",
       "required": "true",
@@ -11,6 +34,7 @@
       "dataSet": "caseSessions",
       "value": "",
       "blockId": "1",
+      "templateOnly": "true",
       "colspan": "6"
     },
     {
@@ -25,30 +49,19 @@
       "colspan": ""
     },
     {
-      "formName": "Court",
-      "viewName": "",
+      "formName": "Comment",
+      "viewName": "Обоснование",
       "required": "true",
-      "type": "combobox",
-      "dataSet": "case",
-      "value": "",
-      "linkName": "SessionDate.CourtName",
-      "blockId": "1",
-      "colspan": ""
-    },
-    {
-      "formName": "InstanceNumber",
-      "viewName": "",
-      "required": "true",
-      "type": "combobox",
+      "type": "textArea",
       "dataSet": "",
       "value": "",
       "blockId": "1",
-      "linkName": "SessionDate.Number",
-      "colspan": ""
+      "templateOnly": "true",
+      "colspan": "6"
     },
     {
-      "formName": "Comment",
-      "viewName": "Обоснование",
+      "formName": "SupplicatoryPart",
+      "viewName": "Просительная часть",
       "required": "true",
       "type": "textArea",
       "dataSet": "",
@@ -192,11 +205,6 @@
       "id": "3e0cc769-0cac-49c0-acc5-00e9a6030759",
       "name": "Иной документ",
       "priority": 100
-    },
-    {
-      "id": "24572992-6cfd-4290-b828-d45cabdec002",
-      "name": "Доверенность",
-      "priority": 1
     }
   ]
 }
