@@ -44,7 +44,6 @@
       "dataSet": "case",
       "value": "courts",
       "blockId": "1",
-      "templateOnly": "true",
       "linkName": "CaseActDocuments.CourtTag",
       "colspan": "4"
     },
@@ -61,17 +60,6 @@
       "colspan": "2"
     },
     {
-      "formName": "Court",
-      "viewName": "Суд",
-      "required": "true",
-      "type": "combobox",
-      "dataSet": "case",
-      "value": "courts",
-      "blockId": "1",
-      "templateOnly": "false",
-      "colspan": "4"
-    },
-    {
       "formName": "InstanceNumber",
       "viewName": "Номер производства",
       "required": "true",
@@ -83,16 +71,6 @@
       "linkName": "Court.Numbers",
       "hidden": "!/AAS$/.test(Court) && !/^FAS/.test(Court) && (Court != 'VS') && (Court != 'VAS')",
       "colspan": "2"
-    },
-    {
-      "formName": "DocumentInfoModel",
-      "required": "true",
-      "type": "text",
-      "dataSet": "",
-      "value": "",
-      "blockId": "1",
-      "linkName": "CaseActDocuments.InstanceNumber",
-      "colspan": ""
     },
     {
       "formName": "MethodSend",
@@ -115,6 +93,27 @@
       "blockId": "1",
       "templateOnly": "true",
       "colspan": "6"
+    },
+    {
+      "formName": "SupplicatoryPart",
+      "viewName": "Просительная часть",
+      "required": "true",
+      "type": "textArea",
+      "dataSet": "",
+      "value": "",
+      "blockId": "1",
+      "templateOnly": "true",
+      "colspan": "6"
+    },
+    {
+      "formName": "DocumentInfoModel",
+      "required": "true",
+      "type": "text",
+      "dataSet": "",
+      "value": "",
+      "blockId": "1",
+      "linkName": "CaseActDocuments.InstanceNumber",
+      "colspan": ""
     },
     {
       "formName": "SideModel_name",
