@@ -4,6 +4,29 @@
   "s3Url": "Ходатайство об отложении судебного разбирательства.odt",
   "fields": [
     {
+      "formName": "Court",
+      "viewName": "Суд",
+      "required": "true",
+      "type": "combobox",
+      "dataSet": "case",
+      "value": "courts",
+      "blockId": "1",
+      "linkName": "SessionDate.CourtTag",
+      "colspan": "4"
+    },
+    {
+      "formName": "InstanceNumber",
+      "viewName": "Номер производства",
+      "required": "true",
+      "type": "combobox",
+      "dataSet": "caseActDocuments",
+      "value": "",
+      "blockId": "1",
+      "linkName": "Court.Numbers",
+      "hidden": "!/AAS$/.test(Court) && !/^FAS/.test(Court) && (Court != 'VS') && (Court != 'VAS')",
+      "colspan": "2"
+    },
+    {
       "formName": "SessionDate",
       "viewName": "Заседание",
       "required": "true",
@@ -11,6 +34,7 @@
       "dataSet": "caseSessions",
       "value": "",
       "blockId": "1",
+      "templateOnly": "true",
       "colspan": "6"
     },
     {
@@ -23,28 +47,6 @@
       "linkName": "SessionDate.SessionDate",
       "blockId": "1",
       "colspan": ""
-    },
-    {
-      "formName": "Court",
-      "viewName": "",
-      "required": "true",
-      "type": "text",
-      "dataSet": "",
-      "value": "",
-      "linkName": "SessionDate.CourtName",
-      "blockId": "1",
-      "colspan": ""
-    },
-    {
-      "formName": "InstanceNumber",
-      "viewName": "",
-      "required": "true",
-      "type": "text",
-      "dataSet": "",
-      "value": "",
-      "blockId": "1",
-      "linkName": "SessionDate.Number",
-      "colspan": "2"
     },
     {
       "formName": "Comment",
@@ -214,11 +216,6 @@
       "id": "3e0cc769-0cac-49c0-acc5-00e9a6030759",
       "name": "Иной документ",
       "priority": 100
-    },
-    {
-      "id": "24572992-6cfd-4290-b828-d45cabdec002",
-      "name": "Доверенность",
-      "priority": 1
     }
   ]
 }
