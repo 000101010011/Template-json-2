@@ -1,7 +1,7 @@
 {
   "id": 5,
-  "name": "Заявление об отказе от иска",
-  "s3Url": "Заявление об отказе от иска.odt",
+  "name": "Ходатайство об отказе от иска",
+  "s3Url": "Ходатайство об отказе от иска.odt",
   "fields": [
     {
       "formName": "TypeTemplate",
@@ -29,7 +29,7 @@
       "viewName": "Номер производства",
       "required": "true",
       "type": "combobox",
-      "dataSet": "",
+      "dataSet": "caseActDocuments",
       "value": "",
       "blockId": "1",
       "linkName": "Court.Numbers",
@@ -193,11 +193,6 @@
       "id": "3e0cc769-0cac-49c0-acc5-00e9a6030759",
       "name": "Иной документ",
       "priority": 100
-    },
-    {
-      "id": "24572992-6cfd-4290-b828-d45cabdec002",
-      "name": "Доверенность",
-      "priority": 1
     }
   ]
 }
