@@ -59,6 +59,19 @@
       "colspan": "6"
     },
     {
+      "formName": "InstanceNumber",
+      "viewName": "Номер производства",
+      "required": "true",
+      "type": "combobox",
+      "dataSet": "",
+      "value": "",
+      "blockId": "1",
+      "templateOnly": "false",
+      "linkName": "Court.Numbers",
+      "hidden": "!/AAS$/.test(Court) && !/^FAS/.test(Court) && (Court != 'VS') && (Court != 'VAS')",
+      "colspan": "2"
+    },
+    {
       "formName": "TypeDocument",
       "required": "true",
       "type": "text",
@@ -248,11 +261,6 @@
       "id": "3e0cc769-0cac-49c0-acc5-00e9a6030759",
       "name": "Иной документ",
       "priority": 100
-    },
-    {
-      "id": "24572992-6cfd-4290-b828-d45cabdec002",
-      "name": "Доверенность",
-      "priority": 1
     }
   ]
 }
